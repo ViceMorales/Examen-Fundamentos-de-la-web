@@ -1,0 +1,206 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu{
+    margin-right: 960px;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    background-color: rgb(201, 127, 163);
+
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1;
+    font-size: 55px;
+    width: 700px;
+    text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.buscar{
+    background-color: rgb(86, 24, 54);
+    padding: 4px;
+    display: flex;
+}
+
+.buscaicono{
+    display: flex;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+    box-sizing: border-box;
+    margin-left: 301px;
+    gap: 30px;
+    justify-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    gap: 40px;
+}
+
+.imagen_gato{
+    display: flex;
+    width: 90%;
+}
+
+.imagenes{
+    display: flex;
+    margin: 20px;
+    }
+
+.gato{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.btn{
+    background-color:rgb(201, 127, 163);
+    border: none;
+    border-radius: 7px;
+    padding: 10px 28px 10px 28px;
+    font-weight: bold;
+}
+
+.btn2{
+    background-color:rgb(201, 127, 163);
+    border: none;
+    border-radius: 7px;
+    padding: 8px 19px 8px 19px;
+    font-weight: bold;
+}
+
+.btn3{
+    background-color:rgb(201, 127, 163);
+    border: none;
+    border-radius: 7px;
+    padding: 8px 19px 8px 19px;
+    font-weight: bold;
+}
+.Corazon{
+    width: 10%;
+}
+.btn_like1{
+    width: 90%;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 15px;
+    padding: 4px;
+}
+.btn_like2{
+    width: 90%;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 15px;
+    padding: 4px;
+}
+.btn_like3{
+    width: 90%;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 15px;
+    padding: 4px;
+}
+.btn_like4{
+    width: 90%;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 15px;
+    padding: 4px;
+}
+
+.like, .like2, .like3, .like4{
+    position: relative;
+    bottom: 6px;
+    left: 7px;
+}
+
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    bottom: 26px;
+    gap: 20px;
+    height: 710px;
+    align-items: center;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+.botones_aside{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 10px;
+}
+
+h4{
+    margin-top: 70px;
+    display: flex;
+    font-size: 130%;
+    text-align: center;
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    gap: 35px;
+}
+
+#logo{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+.rosadi{
+    color: rgb(201, 127, 163);
+}
+
+.Config{
+    background-color: rgb(201, 127, 163);
+    border: none;
+    padding: 8px;
+}
+
+.Sesion{
+    background-color: rgb(86, 24, 54);
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+.plus{
+    background-color: rgb(86, 24, 54);
+}

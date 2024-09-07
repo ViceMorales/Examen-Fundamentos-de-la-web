@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos web</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <div class="container">
+    <nav>
+        <img src="./img/menu.png" alt="menu" id="menu">
+        <input type="text" placeholder="Buscar">
+        <div class="buscaicono">
+        <button class="buscar"><img src="./img/buscar.png" alt="buscar"></button>
+        </div>
+    </nav>
+    <main>
+        <h1> ¡Únete y comparte tu amor por los <span class="negrita">gatitos!</span></h1>
+        <div class="botones">
+            <button class="btn" onclick="cambiarFondo(this)">Gatitos</button>
+            <button class="btn2" onclick="cambiarFondo(this)">Juveniles</button>
+            <button class="btn3" onclick="cambiarFondo(this)">Adultos</button>
+        </div>
+        <div class="imagenes">
+            <div class="gato">
+                <img src="./img/gato1.jpg" alt="gato1" class="imagen_gato">
+                <button class="btn_like1"><img src="./img/like.png" alt="Corazon" class="Corazon"><span class="like">  1</span></button>
+            </div>
+            <div class="gato">
+                <img src="./img/gato2.jpg" alt="gato2" class="imagen_gato">
+                <button class="btn_like2"><img src="./img/like.png" alt="Corazon" class="Corazon"><span class="like2">  2</span></button>
+            </div>
+            <div class="gato">
+                <img src="./img/gato3.png" alt="gato3" class="imagen_gato">
+                <button class="btn_like3"><img src="./img/like.png" alt="Corazon" class="Corazon"><span class="like3">  4</span></button>
+            </div>
+                <div class="gato">
+                <img src="./img/gato4.png" alt="gato4" class="imagen_gato">
+                <button class="btn_like4"><img src="./img/like.png" alt="Corazon" class="Corazon"><span class="like4">  6</span></button>
+            </div>
+        </div>
+    </main>
+    </div>
+    <aside>
+        <h2>miau<span class="rosadi">love</span></h2>
+        <img src="./img/logo.png" alt="logo" id="logo">
+        <ul class="lista">
+            <li>Inicio</li>
+            <li>Subir imagen</li>
+            <li>Contacto</li>
+            <li>Favoritos</li>
+            <li>Recientes</li>
+        </ul>
+        <div class="botones_aside">
+        <button class="Config">Configuración</button>
+        <button class="Sesion">Cerrar Sesión</button>
+        </div>
+        <h4>Todos los derechos reservados miaulove ©</h4>
+    </aside>
+    <script src="./js/index.js"></script>
+</body>
+</html>
