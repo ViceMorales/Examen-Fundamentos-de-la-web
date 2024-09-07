@@ -1,3 +1,5 @@
+/* Codigo de Javasript */
+
 let meGusta = document.querySelector('.btn_like1')
 
 meGusta.addEventListener('click', function(){
@@ -38,13 +40,15 @@ meGusta4.addEventListener('click', function(){
     numeroLike.innerText = aumentaLike
     })
 
+/* ----Lo de arriba son los 4 botones de Me gusta ----*/
+
 let cerrarSesion = document.querySelector('.Sesion')
 
-cerrarSesion.addEventListener('click', function(){
+cerrarSesion.addEventListener('click', function(){  /*Aquí le doy la intruccion al boton Cerrar sesión */
     alert ('Sesión cerrada correctamente')
     })
 
 function cambiarFondo(elemento){
-    elemento.classList.add('plus');
+    elemento.classList.add('plus'); /* Usamos la funcion cambiarFondo para darla la funcion a los primeros botones*/
     }
 
